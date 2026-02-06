@@ -531,7 +531,11 @@
         <item quantity="other">%d sekundit</item>
     </plurals>
 <<<<<<< ours
+<<<<<<< ours
     <string name="remove_watched_popup_warning">Sellega eemaldame vaadatud meediavood ja esitusloendisse lisatud sisu. \nKas sa oled kindel?</string>    <string name="remove_watched_popup_partially_watched_streams">Jah, sealhulgas videod, mille vaatmine jäi pooleli</string>
+=======
+    <string name="remove_watched_popup_warning">Sellega eemaldame vaadatud meediavood ja esitusloendisse lisatud sisu. \nKas sa oled kindel?</string>
+>>>>>>> theirs
 =======
     <string name="remove_watched_popup_warning">Sellega eemaldame vaadatud meediavood ja esitusloendisse lisatud sisu. \nKas sa oled kindel?</string>
 >>>>>>> theirs

@@ -464,10 +464,6 @@
 \nЕвентуално може да бъде поддържано в бъдещи версии.</string>
     <string name="processing_may_take_a_moment">Обработка… Ще отнеме момент</string>
     <string name="new_seek_duration_toast">Поради ограничения в ExoPlayer, стъпката за превъртане е зададена на %d секунди</string>
-<<<<<<< ours
-    <string name="remove_watched_popup_warning">Потоците, които са били гледани преди и след добавянето им към плейлиста, ще бъдат премахнати. \nСигурни ли сте?</string>    <string name="downloads_storage_use_saf_summary">„Storage Access Framework“ позволява изтегляния във външна SD-карта</string>
-    
-=======
     <string name="remove_watched_popup_warning">Потоците, които са били гледани преди и след добавянето им към плейлиста, ще бъдат премахнати. \nСигурни ли сте?</string>
     <string name="downloads_storage_use_saf_summary">„Storage Access Framework“ позволява изтегляния във външна SD-карта</string>
 >>>>>>> theirs
@@ -509,7 +505,6 @@
 =======
     <string name="paid_content">Съдържанието е достъпно само за хора, които са си платили, затова не може да бъде гледано или изтеглено с NewPipe.</string>
     <string name="youtube_music_premium_content">Това видео е достъпно за абонати на YouTube Music Premium, затова не може да бъде гледано или изтеглено с NewPipe.</string>
->>>>>>> theirs
     <string name="remove_watched_popup_title">Премахни изгледаните потоци?</string>
     <string name="remove_watched_popup_partially_watched_streams">Да, както и само частично изгледаните видеа</string>
     <string name="subscribers_count_not_available">Брой на абонати не е наличен</string>
