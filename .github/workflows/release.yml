@@ -23,7 +23,7 @@ jobs:
     steps:
       - name: Checkout branch "${{ github.ref_name }}"
         run: |
-          git clone --no-checkout https://github.com/polymorphicshade/Tubular.git .
+          git clone --no-checkout ${{ github.server_url }}/${{ github.repository }} .
           git checkout --progress --force ${{ github.ref_name }}
         
       - name: Set up JDK 17
@@ -50,7 +50,7 @@ jobs:
         run: |
           version=$( grep "versionName" app/build.gradle | awk -F'"' '{print $2}' )
           gh auth login --with-token <<<"${{ secrets.GITHUB_TOKEN }}"
-          gh release create "v${version}" --title "${{ inputs.title }}" --notes-file ".github/changelog.md" --prerelease=${{ inputs.is_pre_release }} --repo polymorphicshade/Tubular
+          gh release create "v${version}" --title "${{ inputs.title }}" --notes-file ".github/changelog.md" --prerelease=${{ inputs.is_pre_release }} --repo $GITHUB_REPOSITORY
           gh release upload "v${version}" app/build/outputs/apk/release/*.apk --repo $GITHUB_REPOSITORY
 
       - name: Archive reports for job
