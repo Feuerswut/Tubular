@@ -5,10 +5,7 @@
 
 ## APK Info
 
-This is the SHA fingerprint of Tubular's signing key to verify downloaded APKs which are signed by us
-```
-8A:D7:02:5A:8C:91:14:54:E2:A7:B4:51:5E:36:0C:52:CA:63:EC:04:10:A0:42:FF:46:E9:AD:05:B5:09:E1:87
-```
+(only do github releases)
 
 ## To Do
 Things I'll be working on next (not in any particular order):
