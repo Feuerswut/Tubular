@@ -399,7 +399,6 @@
     <string name="max_retry_msg">Maksimum təkrar cəhdlər</string>
     <string name="remove_watched_popup_warning">Pleylistə əlavə olunandan əvvəl və sonrakı baxılan yayımlar silinəcək. \nSiz əminsiniz?</string>
     <string name="feed_groups_header_title">Kanal qrupları</string>
->>>>>>> theirs
     <string name="feed_new_items">Yeni axın elementləri</string>
     <string name="feed_update_threshold_summary">Abunəlik köhnəlmiş hesab edilənə qədərki son yeniləmədən sonrakı vaxt — %s</string>
     <string name="feed_load_error">Axın yükləmə xətası</string>
@@ -531,7 +530,6 @@
     <string name="feed_use_dedicated_fetch_method_title">Mövcud olduqda xüsusi axından al</string>
     <string name="remove_watched_popup_title">Baxılan yayımlar silinsin?</string>
     <string name="remove_watched">İzləniləni sil</string>
->>>>>>> theirs
     <string name="downloads_storage_use_saf_title">Sistem qovluğu seçicisini (SAF) istifadə et</string>
     <string name="error_timeout">Bağlantı fasiləsi</string>
     <string name="error_insufficient_storage_left">Cihazda yer yoxdur</string>
