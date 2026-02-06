@@ -6,7 +6,7 @@
     <string name="no_player_found_toast">Tiada pemain strim yang ditemui (anda boleh memasang VLC untuk memainkan).</string>
     <string name="install">Pasang</string>
     <string name="cancel">Batal</string>
-    <string name="open_in_browser">Buka dalam pelayar</string>
+    <string name="open_in_browser">Buka dalam pelayar web</string>
     <string name="open_in_popup_mode">Buka dalam mod timbul</string>
     <string name="share">Kongsi</string>
     <string name="download">Muat turun</string>
