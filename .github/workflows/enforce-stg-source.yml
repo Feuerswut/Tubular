@@ -1,0 +1,22 @@
+name: Enforce stg source
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, edited, ready_for_review]
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  check-source:
+    name: enforce-stg-source
+    runs-on: ubuntu-latest
+    steps:
+      - name: Verify PR originates from stg
+        run: |
+          if [ "${{ github.event.pull_request.head.ref }}" != "stg" ]; then
+            echo "Only the 'stg' branch may open pull requests into 'main'. Got head ref: ${{ github.event.pull_request.head.ref }}"
+            exit 1
+          fi
+          echo "OK: PR originates from stg"
