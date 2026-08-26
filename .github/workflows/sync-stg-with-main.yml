@@ -2,7 +2,7 @@ name: Sync stg with main
 
 on:
   push:
-    branches: [main]
+    branches: [main, stg]
   workflow_dispatch: {}
 
 permissions:
